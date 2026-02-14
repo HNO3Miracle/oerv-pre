@@ -44,6 +44,7 @@
 - **QEMU 参数**:
   - `-machine virt`: 指定 RISC-V 虚拟平台。
   - `-bios fw_dynamic.bin`: 加载 OpenSBI。
+  - `-kernel Image`: 指定编译好的 Linux 内核镜像。
   - `-drive file=rootfs.ext4,format=raw,id=hd0 -device virtio-blk-device,drive=hd0`: 挂载虚拟硬盘。
   - `-append "root=/dev/vda rw console=ttyS0"`: 指定根设备和控制台。
 - **验证结果**: 系统成功引导，完成文件系统挂载，并跳转至 `Please press Enter to activate this console.`，证明 BusyBox 的 init 进程已成功运行。
