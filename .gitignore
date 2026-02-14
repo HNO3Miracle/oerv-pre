@@ -3,7 +3,8 @@ opensbi/
 busybox/
 rootfs/
 mnt_rootfs/
-*.ext4
+# *.ext4
 *.log
 output/
 riscv_lfs_delivery.tar.gz
+!rootfs.ext4.gz
