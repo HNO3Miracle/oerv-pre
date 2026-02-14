@@ -1,0 +1,1 @@
+尝试基于 riscv+qemu 完成 Linux from scratch ，这个作为笔试题目，需要有对应的过程性报告文档和 镜像导出

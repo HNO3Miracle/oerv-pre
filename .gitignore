@@ -1,0 +1,8 @@
+linux/
+opensbi/
+busybox/
+rootfs/
+*.ext4
+*.log
+output/
+riscv_lfs_delivery.tar.gz
