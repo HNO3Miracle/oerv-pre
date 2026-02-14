@@ -2,6 +2,7 @@ linux/
 opensbi/
 busybox/
 rootfs/
+mnt_rootfs/
 *.ext4
 *.log
 output/

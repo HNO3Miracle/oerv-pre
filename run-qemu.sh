@@ -4,8 +4,8 @@
 BASE_DIR=$(cd "$(dirname "$0")"; pwd)
 
 QEMU=qemu-system-riscv64
-KERNEL=$BASE_DIR/linux/arch/riscv/boot/Image
-SBI=$BASE_DIR/opensbi/build/platform/generic/firmware/fw_dynamic.bin
+KERNEL=$BASE_DIR/Image
+SBI=$BASE_DIR/fw_dynamic.bin
 ROOTFS=$BASE_DIR/rootfs.ext4
 
 echo "Starting RISC-V LFS with:"
